@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  background-color: white;
+}
+.topB {
+  color: black;
+  font-size: 30px;
+  background-color: red;
+}
+.middleB {
+  color: black;
+  font-size: 30px;
+  background-color: blue;
+}
+.bottomB {
+  color: black;
+  font-size: 30px;
+  background-color: green;
+}
