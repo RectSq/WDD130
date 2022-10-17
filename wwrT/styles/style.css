@@ -1,14 +1,14 @@
 /*
---primary-color: black;
+--primary-color: #a0c1d1;
 --secondary-color: #232c33;
 --accent1-color: #d0fef5;
 --accent2-color: #8d6b94;
 */
 body {
-  background-color: #8d6b94;
+  background-color: #a0c1d1;
 }
 header {
-  background-color: #8d6b94;
+  background-color: #a0c1d1;
 }
 footer {
   background-color: rgb(121, 121, 121);
