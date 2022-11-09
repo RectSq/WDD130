@@ -1,0 +1,109 @@
+body {
+  background-color: #232c33;
+  font-family: "Arial", "Trebuchet MS", "Lucida Sans Unicode";
+  font-size: 22px;
+  padding: 0;
+  margin: 0px 0px;
+}
+header {
+  background-color: rgba(35, 44, 51, 0.728);
+  display: grid;
+  grid-template-columns: 150px auto;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+}
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.title {
+  width: 100%;
+  background-color: aliceblue;
+  margin: 10px 0px;
+  text-shadow: 1px 1px rgba(155, 155, 155, 0.5);
+}
+
+.logo {
+  width: 80px;
+}
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #242424;
+  width: 100%;
+  margin-left: 0px;
+}
+nav a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 35px;
+}
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+.titleI {
+  width: 90%;
+  height: 380px;
+}
+.descBackground {
+  background-color: #d0fef5;
+}
+.descTitle {
+  margin-bottom: 0px;
+}
+.desc {
+  padding: 5px 20px 25px 20px;
+  margin-top: 0px;
+  text-align: left;
+  overflow-wrap: break-word;
+  color: #8d6b94;
+  border-radius: 4px;
+  font-size: 18px;
+  list-style: none;
+}
+.book {
+  text-decoration: none;
+  font-size: 28px;
+  padding: 8px 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  color: black;
+}
+.book:hover {
+  background-color: gray;
+  color: aliceblue;
+}
+
+footer {
+  background-color: #6f7364;
+  padding: 25px 50px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+}
+footer p {
+  font-size: 1.2em;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
+footer a:hover {
+  color: black;
+}
